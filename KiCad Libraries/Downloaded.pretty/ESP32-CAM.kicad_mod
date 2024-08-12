@@ -1,0 +1,288 @@
+(footprint "ESP32-CAM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "029fa0dc-13fb-430d-af5b-90cfc0729337")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESP32-CAM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e540ac3c-d25c-4347-a073-127e2ffd277a")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ESP32-CAM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5db1cae9-126d-4449-94ec-c53a1759d862")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "644ca8fc-9388-49bc-aa76-c5ee3a3ce66f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d362b32c-6fff-4c0e-9419-005430969d97")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.97 -26.035)
+		(end -13.97 13.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6533b96f-d208-4017-9a24-8be2581ccdfd")
+	)
+	(fp_line
+		(start -13.97 13.97)
+		(end 13.97 13.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4aa4641-bcf5-4fd1-8abd-a021e14fa0d6")
+	)
+	(fp_line
+		(start 13.97 -26.035)
+		(end -13.97 -26.035)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ac38468-6cfc-4146-b09c-0306e556c2f0")
+	)
+	(fp_line
+		(start 13.97 13.97)
+		(end 13.97 -26.035)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "387a8a29-a09c-40ea-b00a-f9ce9ec92ed1")
+	)
+	(fp_circle
+		(center 0 5.08)
+		(end 4.01609 5.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cfc3f3b5-8657-460c-baad-2758d9c9f3af")
+	)
+	(fp_text user "ESP32-CAM"
+		(at 6.35 -22.86 0)
+		(layer "F.SilkS")
+		(uuid "0335fb5f-66ac-4856-92e7-d8dfc6d87c37")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11.43 -7.62)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "801349a3-c211-4bbd-bdd2-91d19ebf1a43")
+	)
+	(pad "2" thru_hole oval
+		(at -11.43 -5.08)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20c45af5-bbed-4088-8afc-69addbd3d309")
+	)
+	(pad "3" thru_hole oval
+		(at -11.43 -2.54)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c569d27c-36ea-4710-92ae-9dbde44637aa")
+	)
+	(pad "4" thru_hole oval
+		(at -11.43 0)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9face72a-8369-41c0-839d-87548393bd92")
+	)
+	(pad "5" thru_hole oval
+		(at -11.43 2.54)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf68375f-8e8b-4f0a-aca3-2bdf26f0f7f2")
+	)
+	(pad "6" thru_hole oval
+		(at -11.43 5.08)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4286824-4073-44ef-9967-d4fecb5708dd")
+	)
+	(pad "7" thru_hole oval
+		(at -11.43 7.62)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "229b23ac-e955-4bc0-ba1a-ccf8883885cc")
+	)
+	(pad "8" thru_hole oval
+		(at -11.43 10.16)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baa8be17-6063-4538-ada6-6e251c5e88db")
+	)
+	(pad "9" thru_hole oval
+		(at 11.43 10.16)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5206bd70-bcdc-4d80-9e7b-fb588ce71c34")
+	)
+	(pad "10" thru_hole oval
+		(at 11.43 7.62)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5e67949-cc23-4ac4-a165-1f401e35542d")
+	)
+	(pad "11" thru_hole oval
+		(at 11.43 5.08)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49559318-b9c3-4558-94f3-e5b167acc888")
+	)
+	(pad "12" thru_hole oval
+		(at 11.43 2.54)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1cc45cf0-98ed-4c9f-9fcf-124b972d3a17")
+	)
+	(pad "13" thru_hole oval
+		(at 11.43 0)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b29a0646-84fd-4a2f-836a-b9f388b18d20")
+	)
+	(pad "14" thru_hole oval
+		(at 11.43 -2.54)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92509cde-1b84-4864-a091-a7beb2a3f09a")
+	)
+	(pad "15" thru_hole oval
+		(at 11.43 -5.08)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf6399ed-6ff1-4747-9e1c-5944c0050ade")
+	)
+	(pad "16" thru_hole oval
+		(at 11.43 -7.62)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39f1fb6a-e28f-48c6-bf86-41149e55c6a0")
+	)
+	(model "/home/victonix/Documents/Library/KiCad Libraries/Downloaded files/ESP32-CAM/ESP32-CAM.step"
+		(offset
+			(xyz 0 5 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(offset
+			(xyz 11.5 7.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(offset
+			(xyz -11.5 7.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
